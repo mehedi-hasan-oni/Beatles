@@ -1,0 +1,12 @@
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Oswald', sans-serif;
+
+
+tittle html========
+ <div class="all-tittle">
+            <div class="tittle-text">
+                <h2>about us</h2>
+                </div>
+            <div class="tittle-shape"><img src="images/shape.png" alt="shape"></div>
+        </div>

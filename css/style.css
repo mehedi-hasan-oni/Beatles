@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+.tittle-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.tittle-text h2 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+.tittle-shape {
+    text-align: center;
+    margin-left: -34px;
+    margin-top: -15px;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/*===============================
+        Header-part start
+=================================*/
+
+#header-part {
+    background: #0872b9;
+}
+
+#header-part .text {
+    width: 50%;
+    color: #e7e7e7;
+    padding: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#header-part .icon {
+    width: 50%;
+    padding: 10px 0;
+    text-align: right;
+}
+
+#header-part .icon a {
+    margin-right: 25px;
+    color: #e7e7e7;
+    transition: .6s;
+}
+
+#header-part .icon a:hover {
+    color: #353535;
+}
+
+/*===============================
+        Header-part end
+=================================*/
+
+/*===============================
+        Nev-part start
+=================================*/
+
+#nev-part .logo {
+    width: 30%;
+}
+
+#nev-part .logo img {
+    margin: 20px 0px;
+}
+
+#nev-part .text {
+    width: 70%;
+}
+
+#nev-part .text ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nev-part .text ul li {
+    margin-right: 25px;
+    align-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 34px;
+    margin-bottom: 36px;
+}
+
+#nev-part .text ul li a {
+    color: #363636;
+    transition: .5s;
+}
+
+#nev-part .text ul li a:hover {
+    color: #2784c2;
+}
+
+
+/*===============================
+        Nev-part end
+=================================*/
+
+/*===============================
+        Banner-part start
+=================================*/
+
+#banner-part .ban-img {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .ban-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6)
+}
+
+#banner-part .ban-overlay .text {
+    text-align: end;
+    padding-right: 25px;
+}
+
+#banner-part .ban-overlay .text h2 {
+    padding-top: 88px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#banner-part .ban-overlay .text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#banner-part .ban-overlay .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 24px;
+    width: 450px;
+    margin-left: auto;
+    margin-top: 10px;
+    padding-bottom: 35px;
+}
+
+#banner-part .ban-overlay .button {
+    padding-bottom: 90px;
+    text-align: end;
+    margin-right: 25px;
+}
+
+#banner-part .ban-overlay .button a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 9px 16px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    margin-left: 20px;
+    transition: .6s;
+}
+
+#banner-part .ban-overlay .button a:hover {
+    background: #0872b9;
+    border: 1px solid #0872b9;
+}
+
+
+/*===============================
+        Banner-part end
+=================================*/
+
+
+/*===============================
+        about-part start
+=================================*/
+
+#about-part .image {
+    width: 33%;
+}
+
+#about-part .text {
+    width: 67%;
+    margin-top: 45px;
+}
+
+#about-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    width: 548px;
+    margin-bottom: 35px;
+}
+
+
+
+/*===============================
+        about-part end
+=================================*/
+
+/*===============================
+        service-part start
+=================================*/
+
+#service-part .our-ser-t {
+    margin-left: -71px;
+}
+
+#service-part .service-main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+#service-part .item {
+    width: 30%;
+    background: #f1f1f1;
+    position: relative;
+    transition: .6s;
+}
+
+#service-part .item:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.32);
+}
+
+#service-part .item .round01 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    top: 0;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-part .item .round02 {
+    border: 1px solid #dedede;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+}
+
+#service-part .item .round03 {
+    background: #f1f1f1;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+}
+
+#service-part .item:hover .round03{
+    background: #5bc5f4;
+}
+
+#service-part .item:hover .round02 {
+    border: 1px solid #5bc5f4;
+}
+
+#service-part .item h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+    text-align: center;
+    margin-top: 55px;
+    text-transform: uppercase;
+
+}
+
+#service-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    width: 270px;
+    text-align: center;
+    margin: 20PX auto;
+    line-height: 24PX;
+}
+
+
+
+/*===============================
+        service-part end
+=================================*/
+
+/*===============================
+        portfolio-part start
+=================================*/
+
+#portfolio-part .our-port-t {
+    margin-left: -86px;
+    margin-bottom: 30px;
+}
+
+#portfolio-part ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#portfolio-part ul li {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio-part ul li:nth-child(even) {
+    flex-direction: column-reverse;
+}
+
+#portfolio-part ul li img {
+    width: 100%;
+    display: block;
+}
+
+#portfolio-part ul li .item {
+    position: relative;
+    margin-bottom: 19px;
+}
+
+#portfolio-part ul li .item i {
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-part ul li .item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: .8s;
+    opacity: 0;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-part ul li .item:hover .overlay {
+    opacity: 1;
+    height: 100%;
+}
+
+
+
+/*===============================
+        portfolio-part end
+=================================*/
+
+/*===============================
+        team-part start
+=================================*/
+
+
+#team-part .team-main {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#team-part .main .item {
+    width: 24%;
+    text-align: center;
+    transition: .6s;
+    position: relative;
+
+}
+
+#team-part .main .item img {
+    width: 100%;
+}
+
+#team-part .item h2 {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+#team-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#team-part .item:hover img {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.35);
+}
+
+#team-part .item:hover h2 {
+    color: #5bc5f4;
+}
+
+#team-part .item .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 88%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    opacity: 0;
+    transition: .9s;
+    background: rgba(0, 0, 0, .6);
+}
+
+#team-part .item:hover .overlay {
+    opacity: 1;
+    width: 35%;
+}
+
+#team-part .item .overlay i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    transition: .6s;
+}
+
+#team-part .item .overlay i:hover {
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;
+}
+
+
+/*===============================
+        team-part end
+=================================*/
+
+/*===============================
+        testimonial-part start
+=================================*/
+
+#testi-part .testi-t {
+    margin-left: -60px;
+    margin-bottom: 30px;
+}
+
+#testi-part .testi-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#testi-part .item {
+    width: 49%;
+    text-align: center;
+}
+
+#testi-part .item .details {
+    width: 100%;
+    margin-top: 60px;
+    background: #f1f1f1;
+    position: relative;
+}
+
+#testi-part .item .details .arrow {
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+#testi-part .item .details h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#testi-part .item .details h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 6px 0;
+}
+
+#testi-part .item .details p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    width: 430px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+
+
+/*===============================
+        testimonial-part end
+=================================*/
+
+/* ===============================
+         Footer-part Start
+================================== */
+#footer-part {
+    margin-top: 60px;
+    background: #353535;
+    padding-bottom: 35px;
+}
+
+#footer-part h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+    color: #fff;
+}
+
+#footer-part .footer-main {
+    justify-content: space-between;
+}
+
+#footer-part .footer-main .logo {
+    width: 22%;
+    margin-top: 20px;
+}
+
+#footer-part .footer-main .logo p {
+    width: 233px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+#footer-part .footer-main .contact {
+    width: 22%;
+    margin-right: 10px;
+
+}
+
+#footer-part .footer-main .contact ul {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#footer-part .footer-main .contact .contact-num {
+    width: 104px;
+}
+
+#footer-part .footer-main .contact ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+#footer-part .footer-main .contact ul li i {
+    font-size: 16px;
+    background: #5bc5f4;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+}
+
+#footer-part .footer-main .important {
+    width: 17%;
+}
+
+#footer-part .footer-main .important .contant {
+    display: flex;
+}
+
+#footer-part .footer-main .important ul {
+    margin-right: 35px;
+}
+
+#footer-part .footer-main .important ul li {
+    margin-top: 25px;
+}
+
+#footer-part .footer-main .important ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    transition: all linear .5s;
+}
+
+#footer-part .footer-main .important ul li a:hover {
+    color: #53a8ce;
+}
+
+#footer-part .footer-main .flkr {
+    width: 26%;
+
+}
+
+#footer-part .footer-main .flkr .holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#footer-part .footer-main .flkr .holder .img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#footer-part .footer-main .flkr .holder .img img {
+    width: 100%;
+}
+
+/* =============================
+       Footer-part End
+================================ */
+
+/* ============================
+    Footer-bottom part Start
+=============================== */
+#footer-bottom {
+    background: #555555;
+    padding: 15px 0;
+    box-shadow: inset 0px 40px 166px -88px #00000033;
+}
+
+#footer-bottom .developer {
+    text-align: center;
+}
+
+#footer-bottom .developer p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+#footer-bottom .developer p span {
+    color: #58899f;
+    text-transform: uppercase;
+}
+
+/* ==============================
+      Footer-bottom part End
+================================= */
